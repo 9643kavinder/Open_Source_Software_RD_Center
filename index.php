@@ -19,7 +19,9 @@
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-
+      
+      <!-- jquery Onscroll animations -->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="css/agency.min.css" rel="stylesheet">
 <style>
@@ -110,6 +112,20 @@
     <header class="masthead">
       <div class="container">
         <div class="intro-text">
+            <div data-aos="fade-right"><div class="intro-lead-in">The Club Of Technocrats</div></div>
+            <div data-aos="fade-left"><div class="intro-heading">Open Source Software R&D Center</div></div>
+             <p><a href="" class="typewrite" style="color:white;font-size: 2rem;font-style:normal;" data-period="2000" data-type='[ "We Create.", "We Design.", "We are Technocrats."]'>
+    <span class="wrap"></span>
+                </a></p>
+            <div data-aos="fade-up">  <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Get Started</a></div>
+        </div>
+      </div>
+    </header>
+ <!-- Header -->
+<!--
+    <header class="masthead">
+      <div class="container">
+        <div class="intro-text">
           <div class="intro-lead-in">The Club Of Technocrats</div>
           <div class="intro-heading">Open Source Software R&D Center</div>
              <p><a href="" class="typewrite" style="color:white;font-size: 2rem;font-style:normal;" data-period="2000" data-type='[ "We Create.", "We Design.", "We are the Centre of Technocrats."]'>
@@ -119,8 +135,9 @@
         </div>
       </div>
     </header>
-
+-->
     <!-- Services -->
+      <div data-aos="fade-up">
     <section id="services">
       <div class="container">
         <div class="row">
@@ -131,65 +148,79 @@
         </div>
         <div class="row text-center">
           <div class="col-md-4">
+                    <div data-aos="flip-left">
             <span class="fa-stack fa-3x">
               <i class="fas fa-circle fa-stack-2x text-primary"></i>
               <i class="fas fa-laptop-code fa-stack-1x fa-inverse"></i>
             </span>
+              </div>
             <h4 class="service-heading">WEB DEVELOPMENT</h4>
             <p class="text-muted">We at OSSR&D center place a high premium on understanding your business model and work at offering a wide range of web development services.</p>
           </div>
           <div class="col-md-4">
+              <div data-aos="flip-left">
             <span class="fa-stack fa-3x">
               <i class="fas fa-circle fa-stack-2x text-primary"></i>
               <i class="fab fa-android fa-stack-1x fa-inverse"></i>
             </span>
+              </div>
             <h4 class="service-heading">APP DEVELOPMENT</h4>
             <p class="text-muted">We develop the application discovering the future-proof technology using kotlin, flutter, java and many more and app trend by comprehending all significant aspects.</p>
           </div>
           <div class="col-md-4">
+              <div data-aos="flip-left">
             <span class="fa-stack fa-3x">
               <i class="fas fa-circle fa-stack-2x text-primary"></i>
               <i class="fab fa-whmcs fa-stack-1x fa-inverse"></i>
             </span>
+              </div>
             <h4 class="service-heading">MACHINE LEARNING</h4>
             <p class="text-muted">In the upcoming world of machines which possess the ability to educate themselves and act on their own, our team has stepped up in contributing the future ahead.</p>
           </div>
         </div>
         <div class="row text-center">
           <div class="col-md-4">
+              <div data-aos="flip-left">
             <span class="fa-stack fa-3x">
               <i class="fas fa-circle fa-stack-2x text-primary"></i>
               <i class="fas fa-code fa-stack-1x fa-inverse"></i>
             </span>
+              </div>
             <h4 class="service-heading">SOFTWARE DEVELOPMENT</h4>
             <p class="text-muted">Open source software r&d center provides software development solutions and activities comprise of custom tailored application software covering.</p>
           </div>
           <div class="col-md-4">
+              <div data-aos="flip-left">
             <span class="fa-stack fa-3x">
               <i class="fas fa-circle fa-stack-2x text-primary"></i>
               <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
             </span>
+              </div>
             <h4 class="service-heading">CYBER SECURITY</h4>
             <p class="text-muted">Today data is most valuable entity that is recognised by all and to secure this ace we have our team actively working in this field with the leading federal security standards.</p>
           </div>
           <div class="col-md-4">
+              <div data-aos="flip-left">
             <span class="fa-stack fa-3x">
               <i class="fas fa-circle fa-stack-2x text-primary"></i>
               <i class="fab fa-accusoft fa-stack-1x fa-inverse"></i>
             </span>
+              </div>
             <h4 class="service-heading">WEB DESIGNING</h4>
             <p class="text-muted">It is obvious and you may be aware of the fact that websites are not mere efficient medium for information dissemination rather it represents your business online.</p>
           </div>
         </div>  
       </div>
     </section>
+        </div>
 
     <!-- Portfolio Grid -->
+      <div data-aos="fade-right">
     <section class="bg-light" id="portfolio">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Projects</h2>
+              <div data-aos="zoom-in-up"><h2 class="section-heading text-uppercase">Projects</h2></div>
             <h3 class="section-subheading text-muted">Our team focuses on plethora of projects covering essential domains of computational advancements.</h3>
           </div>
         </div>
@@ -281,13 +312,15 @@
         </div>
       </div>
     </section>
+</div>
 
     <!-- About -->
+      <div data-aos="fade-left">
     <section id="about">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">EVENTS</h2>
+              <div data-aos="zoom-in-up"><h2 class="section-heading text-uppercase">EVENTS</h2></div>
             <h3 class="section-subheading text-muted">We brings more and more oppurtunities for you to learn and showcase your skills through our events.</h3>
           </div>
         </div>
@@ -362,13 +395,15 @@
         </div>
       </div>
     </section>
+      </div>
 
     <!-- Team -->
+      <div data-aos="fade-up-right">
     <section class="bg-light" id="team">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
+              <div data-aos="zoom-in"><h2 class="section-heading text-uppercase">Our Amazing Team</h2></div>
             <h3 class="section-subheading text-muted">"No one can whistle a symphony. It takes a whole orchestra to play it."</h3>
           </div>
         </div>
@@ -515,21 +550,40 @@
           
           
           <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-<!--
+
   <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active" style="background-color:#fed136!important"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1" style="background-color:#fed136!important;"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2" style="background-color:#fed136!important;"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="3" style="background-color:#fed136!important;"></li>
   </ol>
--->
+
   <div class="carousel-inner">
     <div class="carousel-item active">
         <div class="row w-100">
-          <div class="col-sm-2">
+          <div class="col-md-2">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="img/team/akshat%20(2).jpg" alt="">
               <h5>Akshat Singhal</h5>
               <p class="text-muted">Developer</p>
+                 <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/ossrd/">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+            </ul>
+<!--
                  <div class="overlay" title="Akshat Singhal">
                      <div class="row">
                          <div class="col-6">
@@ -544,14 +598,33 @@
                          </div>
                      </div>
   </div>
+-->
 
             </div>
           </div>
-            <div class="col-sm-2">
+            <div class="col-md-2">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="img/team/himanshu.jpg" alt="">
               <h5>Himanshu Gupta</h5>
               <p class="text-muted">Developer</p>
+                 <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/ossrd/">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+            </ul>
+<!--
                  <div class="overlay" title="Himanshu Gupta">
                      <div class="row">
                          <div class="col-6">
@@ -566,14 +639,33 @@
                          </div>
                      </div>
   </div>
+-->
 
             </div>
           </div>
-            <div class="col-sm-2">
+            <div class="col-md-2">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="img/team/anshul.jpg" alt="">
               <h5>Anshul Sharma</h5>
               <p class="text-muted">Designer</p>
+                 <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/ossrd/">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+            </ul>
+<!--
                  <div class="overlay" title="Anshul Sharma">
                      <div class="row">
                          <div class="col-6">
@@ -588,14 +680,33 @@
                          </div>
                      </div>
   </div>
+-->
 
             </div>
           </div>
-            <div class="col-sm-2">
+            <div class="col-md-2">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="img/team/divyam.jpg" alt="">
               <h5>Divyam<br>Singh</h5>
               <p class="text-muted">Developer</p>
+                 <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/ossrd/">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+            </ul>
+<!--
                  <div class="overlay" title="Divyam Singh">
                      <div class="row">
                          <div class="col-6">
@@ -610,14 +721,33 @@
                          </div>
                      </div>
   </div>
+-->
 
             </div>
           </div>
-            <div class="col-sm-2">
+            <div class="col-md-2">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="img/team/archit2.jpg" alt="">
               <h5>Archit Agrawal</h5>
               <p class="text-muted">Developer</p>
+                 <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/ossrd/">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+            </ul>
+<!--
                  <div class="overlay" title="Archit Agrawal">
                      <div class="row">
                          <div class="col-6">
@@ -632,14 +762,33 @@
                          </div>
                      </div>
   </div>
+-->
 
             </div>
           </div>
-            <div class="col-sm-2">
+            <div class="col-md-2">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="img/team/devanshi.jpg" alt="">
               <h5>Devanshi Khare</h5>
               <p class="text-muted">Developer</p>
+                 <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/ossrd/">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+            </ul>
+<!--
                  <div class="overlay" title="Devanshi Khare">
                      <div class="row">
                          <div class="col-6">
@@ -654,6 +803,7 @@
                          </div>
                      </div>
   </div>
+-->
 
             </div>
           </div>
@@ -662,11 +812,29 @@
     </div>
     <div class="carousel-item">
       <div class="row w-100">
-          <div class="col-sm-2">
+          <div class="col-md-2">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="img/team/diksha.jpg" alt="">
               <h5>Diksha<br>Gupta</h5>
               <p class="text-muted">Developer</p>
+                 <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/ossrd/">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+            </ul>
+<!--
                  <div class="overlay" title="Diksha Gupta">
                      <div class="row">
                          <div class="col-6">
@@ -681,14 +849,33 @@
                          </div>
                      </div>
   </div>
+-->
 
             </div>
           </div>
-            <div class="col-sm-2">
+            <div class="col-md-2">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="img/team/soumya.jpg" alt="">
               <h5>Soumya Manchanda</h5>
               <p class="text-muted">Developer</p>
+                 <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/ossrd/">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+            </ul>
+<!--
                  <div class="overlay" title="Soumya Manchanda">
                      <div class="row">
                          <div class="col-6">
@@ -703,14 +890,33 @@
                          </div>
                      </div>
   </div>
+-->
 
             </div>
           </div>
-            <div class="col-sm-2">
+            <div class="col-md-2">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="img/team/saurabh.jpg" alt="">
               <h5>Saurabh Srivastava</h5>
               <p class="text-muted">Developer</p>
+                 <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/ossrd/">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+            </ul>
+<!--
                  <div class="overlay" title="Saurabh Srivastava">
                      <div class="row">
                          <div class="col-6">
@@ -725,14 +931,33 @@
                          </div>
                      </div>
   </div>
+-->
 
             </div>
           </div>
-            <div class="col-sm-2">
+            <div class="col-md-2">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="img/team/krishnanshu.jpg" alt="">
               <h5>Krishnanshu Mishra</h5>
               <p class="text-muted">Developer</p>
+                 <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/ossrd/">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+            </ul>
+<!--
                  <div class="overlay" title="Krishnanshu Mishra">
                      <div class="row">
                          <div class="col-6">
@@ -747,14 +972,33 @@
                          </div>
                      </div>
   </div>
+-->
 
             </div>
           </div>
-            <div class="col-sm-2">
+            <div class="col-md-2">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="img/team/rishabh.jpg" alt="">
               <h5>Rishabh Agrawal</h5>
               <p class="text-muted">Developer</p>
+                 <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/ossrd/">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+            </ul>
+<!--
                  <div class="overlay" title="Rishabh Agrawal">
                      <div class="row">
                          <div class="col-6">
@@ -769,14 +1013,33 @@
                          </div>
                      </div>
   </div>
+-->
 
             </div>
           </div>
-            <div class="col-sm-2">
+            <div class="col-md-2">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="img/team/sarvagya.jpg" alt="">
               <h5>Sarvagya Jalota</h5>
               <p class="text-muted">Developer</p>
+                 <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/ossrd/">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+            </ul>
+<!--
                  <div class="overlay" title="Sarvagya Jalota">
                      <div class="row">
                          <div class="col-6">
@@ -791,6 +1054,7 @@
                          </div>
                      </div>
   </div>
+-->
 
             </div>
           </div>
@@ -799,11 +1063,29 @@
     </div>
     <div class="carousel-item">
       <div class="row w-100">
-          <div class="col-sm-2">
+          <div class="col-md-2">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="img/team/shivender.jpg" alt="">
               <h5>Shivendra Gupta</h5>
               <p class="text-muted">Developer</p>
+                 <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/ossrd/">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+            </ul>
+<!--
                  <div class="overlay" title="Shivendra Gupta">
                      <div class="row">
                          <div class="col-6">
@@ -818,14 +1100,33 @@
                          </div>
                      </div>
   </div>
+-->
 
             </div>
           </div>
-            <div class="col-sm-2">
+            <div class="col-md-2">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="img/team/shivi.jpg" alt="">
               <h5>Shivi <br>Agrawal</h5>
               <p class="text-muted">Developer</p>
+                 <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/ossrd/">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+            </ul>
+<!--
                  <div class="overlay" title="Shivi Agrawal">
                      <div class="row">
                          <div class="col-6">
@@ -840,14 +1141,33 @@
                          </div>
                      </div>
   </div>
+-->
 
             </div>
           </div>
-            <div class="col-sm-2">
+            <div class="col-md-2">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="img/team/shubham.jpg" alt="">
               <h5>Shubham Singh</h5>
               <p class="text-muted">Designer</p>
+                 <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/ossrd/">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+            </ul>
+<!--
                  <div class="overlay" title="Shubham Singh">
                      <div class="row">
                          <div class="col-6">
@@ -862,14 +1182,33 @@
                          </div>
                      </div>
   </div>
+-->
 
             </div>
           </div>
-            <div class="col-sm-2">
+            <div class="col-md-2">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="img/team/sristi%20ved%20singh.jpg" alt="">
               <h5>Sristi Ved Singh</h5>
               <p class="text-muted">Designer</p>
+                 <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/ossrd/">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+            </ul>
+<!--
                  <div class="overlay" title="Sristi Ved Singh">
                      <div class="row">
                          <div class="col-6">
@@ -884,14 +1223,33 @@
                          </div>
                      </div>
   </div>
+-->
 
             </div>
           </div>
-            <div class="col-sm-2">
+            <div class="col-md-2">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="img/team/satyam.jpg" alt="">
               <h5>Satyam <br>Singh</h5>
               <p class="text-muted">Developer</p>
+                 <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/ossrd/">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+            </ul>
+<!--
                  <div class="overlay" title="Satyam Singh">
                      <div class="row">
                          <div class="col-6">
@@ -906,14 +1264,33 @@
                          </div>
                      </div>
   </div>
+-->
 
             </div>
           </div>
-            <div class="col-sm-2">
+            <div class="col-md-2">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="img/team/gaurav.jpg" alt="">
               <h5>Gaurav<br> Singh</h5>
               <p class="text-muted">Developer</p>
+                 <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/ossrd/">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+            </ul>
+<!--
                  <div class="overlay" title="Gaurav Singh">
                      <div class="row">
                          <div class="col-6">
@@ -928,6 +1305,7 @@
                          </div>
                      </div>
   </div>
+-->
 
             </div>
           </div>
@@ -936,11 +1314,29 @@
     </div>
       <div class="carousel-item">
       <div class="row w-100">
-          <div class="col-sm-2">
+          <div class="col-md-2">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="img/team/ajeet.jpg" alt="">
               <h5>Ajeet<br> Kumar</h5>
               <p class="text-muted">Designer</p>
+                 <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/ossrd/">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+            </ul>
+<!--
                  <div class="overlay" title="Ajeet Kumar">
                      <div class="row">
                          <div class="col-6">
@@ -955,14 +1351,33 @@
                          </div>
                      </div>
   </div>
+-->
 
             </div>
           </div>
-            <div class="col-sm-2">
+            <div class="col-md-2">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="img/team/sagar.jpg" alt="">
               <h5>Sagar<br> Agrawal</h5>
               <p class="text-muted">Developer</p>
+                 <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/ossrd/">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+            </ul>
+<!--
                  <div class="overlay" title="Sagar Agrawal">
                      <div class="row">
                          <div class="col-6">
@@ -977,14 +1392,33 @@
                          </div>
                      </div>
   </div>
+-->
 
             </div>
           </div>
-            <div class="col-sm-2">
+            <div class="col-md-2">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="img/team/ashutosh.jpeg" alt="">
               <h5>Ashutosh Yadav</h5>
               <p class="text-muted">Developer</p>
+                 <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/ossrd/">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+            </ul>
+<!--
                  <div class="overlay" title="Ashutosh Yadav">
                      <div class="row">
                          <div class="col-6">
@@ -999,14 +1433,33 @@
                          </div>
                      </div>
   </div>
+-->
 
             </div>
           </div>
-            <div class="col-sm-2">
+            <div class="col-md-2">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="img/team/aniket.jpg" alt="">
               <h5>Aniket <br>Pandey</h5>
               <p class="text-muted">Developer</p>
+                 <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/ossrd/">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+            </ul>
+<!--
                  <div class="overlay" title="Aniket Pandey">
                      <div class="row">
                          <div class="col-6">
@@ -1021,14 +1474,33 @@
                          </div>
                      </div>
   </div>
+-->
 
             </div>
           </div>
-            <div class="col-sm-2">
+            <div class="col-md-2">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="img/team/neha.jpg" alt="">
               <h5>Neha <br>Shukla</h5>
               <p class="text-muted">Developer</p>
+                 <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/ossrd/">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+            </ul>
+<!--
                  <div class="overlay" title="Neha Shukla">
                      <div class="row">
                          <div class="col-6">
@@ -1043,14 +1515,33 @@
                          </div>
                      </div>
   </div>
+-->
 
             </div>
           </div>
-            <div class="col-sm-2">
+            <div class="col-md-2">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="img/team/Kavinder%20(3).jpg" alt="">
               <h5>Kavinder Panwar</h5>
               <p class="text-muted"> Developer</p>
+                 <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/ossrd/">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+            </ul>
+<!--
                  <div class="overlay" title="Kavinder Panwar">
                      <div class="row">
                          <div class="col-6">
@@ -1065,6 +1556,7 @@
                          </div>
                      </div>
   </div>
+-->
 
             </div>
           </div>
@@ -1099,8 +1591,10 @@
         </div>
       </div>
     </section>
+      </div>
 
     <!-- Clients -->
+<!--
     <section class="py-5">
       <div class="container">
         <div class="row">
@@ -1127,13 +1621,15 @@
         </div>
       </div>
     </section>
+-->
 
     <!-- Contact -->
+      <div data-aos="fade-up-left">
     <section id="contact">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Contact Us</h2>
+              <div data-aos="zoom-in-up"> <h2 class="section-heading text-uppercase">Contact Us</h2></div>
             <h3 class="section-subheading text-muted"><br>27th Km Stone<br> Delhi - Hapur Road,<br> Adhyatmik Nagar <br>Ghaziabad - 201009<br><br>ossrndcentre@gmail.com</h3>
           </div>
         </div>
@@ -1172,6 +1668,7 @@
         </div>
       </div>
     </section>
+      </div>
 
     <!-- Footer -->
     <footer>
@@ -1432,6 +1929,8 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/agency.min.js"></script>
+      <!-- Jquery Onscroll animations -->
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
        var TxtType = function(el, toRotate, period) {
     this.toRotate = toRotate;
@@ -1499,6 +1998,9 @@ window.onload = function() {
     
     
       </script>
+      <script>
+  AOS.init();
+</script>
   </body>
 
 </html>
