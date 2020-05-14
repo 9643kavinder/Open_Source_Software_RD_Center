@@ -1,2 +1,2 @@
-# OPEN SOURCE SOFTWARE RESEARCH & DEVELOPMENT CENTER (AKGEC - GHAZIABAD)
+# Open Source Software Research & Development Center (AKGEC - GHAZIABAD)
 http://ossrd.herokuapp.com/
